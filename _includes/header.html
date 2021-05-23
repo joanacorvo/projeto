@@ -1,9 +1,9 @@
 <header>
-    <h1><a href="">Joana Corvo</a></h1>
+    <h1><a href="{{ site.baseurl }}">Joana Corvo</a></h1>
 <nav>
     <ul>
         {% for page in site.pagesnav %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 </nav>
