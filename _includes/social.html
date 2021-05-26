@@ -1,7 +1,7 @@
 <ul>
   {% for item in site.data.socialmedia.docs %}
   <li>
-    <a href="{{ item.url }}"> {{ item.title }} </a>
+    <a href="{{ item.url }}" title="{{ item.title }}" target="_blank"> {{ item.title }} </a>
   </li>
   {% endfor %}
 </ul>

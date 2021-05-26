@@ -15,9 +15,8 @@ permalink: "/portfolio/"
 {% endfor %}
 </div>
 
+
 <div>
-
-
 
 <h2>{{ site.data.otherprojects.docs_list_title }}</h2>
 
