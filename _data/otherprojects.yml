@@ -1,0 +1,48 @@
+docs_list_title: Other works and areas of interest
+docs_design:
+
+ - title: f(x)=4<sup>x</sup>
+   image: https://postimg.cc/BPFMjdCM
+   image-alt: gif showcasing some frames from the website
+   category: Web design, Storytelling
+   description: Inspired by otto e mezzo, a film by Federico Fellini, four different characters were created and explored creatively through an immersive and interactive online experience. The website is divided into two sections - the main page (with more information about the project); and the interactive fiction itself.
+   url-exists: yeap
+   url: https://fx-4x.github.io/fx4x/
+
+ - title: 3018 Geophysical Map
+   image: https://postimg.cc/BPFMjdCM
+   image-alt: Frame from the amination of 3018 Geophysical Map
+   category: Digital Animation
+   description: Imagine a world where there is no free will, where everyone is the same and do the same things. When you are the only one who is concious of their choices, there is a risk that the others could turn against you. This digital animation is a reflexion of that futuristic world, placed in the year 3018, showing how the society works with a touch of irony, also brought by the background music.
+   url-exists: yeap
+   url: https://youtu.be/JRHdxT2Wddk
+
+ - title: “Must we no longer believe in words?”
+   image: https://postimg.cc/BPFMjdCM
+   image-alt: «must we no longer believe in words» sentence animated
+   category: Graphic and Motion Design
+   description: In order to highlight the expression of the futuristic manifestos, the phrase written by Tristan Tzara on the Dada Manifesto emphasizes that the written meaning is not always what it appears to be. This composition is interpreted as using a set of letters, both in repetition, that make them stop looking like words and more like sounds, with the black stripes that hide part of them (as if it were the meaning) and also with the M / W comparison that shows that not everything is what it seems.
+   url-exists: nope
+
+ - title: Amsterdam Visual Identity
+   image: https://postimg.cc/BPFMjdCM
+   image-alt: image showing Amsterdam identity on a poster
+   category: Identity Design
+   description: Study and development of Amsterdam's identity. Amsterdam is a city of not only good times, but also of culture; it is a city that is in rapid adaptation and is evolving to be one of the best places to live and to grow a startup.
+   url-exists: nope
+
+docs_other:
+
+ - title: Lilac Breasted Roller
+   image: https://postimg.cc/BPFMjdCM
+   image-alt: llustration of a Lilac Breasted Roller posed on top of a branch in a brown textured background
+   category: Illustration
+   description: Realistic illustration of a lilac breasted roller, painted digitaly on Adobe Photoshop.
+   url-exists: nope
+
+ - title: Aldeias de Água
+   image: https://postimg.cc/BPFMjdCM
+   image-alt:
+   category: Illustration
+   description: This was project to promote the “Aldeias de Água” (meaning “water villages” in english) done with a partnership with EDIA, a public company that manages the Alqueva Multipurpose Project. The prompt was to show the beauty of some villages that are now closer to the water due to the construction of the Alqueva dam, and how it brought advantages to those who live there. A book was made with a collection of illustrations and stained glass made by multiple students. There was afterwards an exhibition in EDIA's head office with these works.
+   url-exists: nope

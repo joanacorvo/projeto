@@ -60,3 +60,5 @@ plugins:
 collections:
   pagesnav:
     output: true
+  projects:
+    output: true
