@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Joana Corvo"
 ---
 <section>
 <h1>Joana Corvo</h1>
