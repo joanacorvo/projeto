@@ -4,25 +4,31 @@ title: "About"
 ---
 
 <section>
+<h3>Joana Corvo</h3>
 <p>I am Joana Corvo, a Junior Product Designer with a Communication Design degree and a post-graduate student in Digital Experience Design at the Fine Arts Academy, Lisbon University. Through the past years, I have been working on projects that have made me grow as a designer, as well as a person.Besides design and art, my passions envolve music and reading. On my free time you can also catch me binge watching random videos on tecnology (right now I am learning about 3D printing!).</p>
-
-<figure>
-<img alt="Photo of Joana Corvo">
-</figure>
 </section>
+<figure >
+                <img src="../assets/images/jcorvo1.jpg"
+                    alt="photo of Joana, her face turned to her left, has short curly brown hair, blue glasses, a red shirt">
+                <img src="../assets/images/jcorvo2.jpg" alt="photo of Joana Corvo making a silly face">
+                <img src="../assets/images/jcorvo3.jpg"
+                    alt="photo of Joana Corvo grabing her hair and making a silly face">
+                <img src="../assets/images/jcorvo4.jpg"
+                    alt="photo of Joana Corvo with a smile on her face, almost laughing">
+            </figure>
 
 <section>
 <h3>Academic Qualifications</h3>
-<article>
+<div>
 <p><em>09-09-2020 — Present</em></p>
 <p><strong>Post-graduation in Digital Experience Design</strong>
 Fine-Arts Faculty, Lisbon University.</p>
-</article>
-<article>
+</div>
+<div>
 <p><em>10-09-2017 — 15-07-2020</em></p>
 <p><strong>Degree level in Communication Design</strong>
 Fine-Arts Faculty, Lisbon University.</p>
-</article>
+</div>
 </section>
 
 <section>
@@ -35,27 +41,27 @@ Fine-Arts Faculty, Lisbon University.</p>
 
 <div>
 <figure>
-<img>
+<img src="../assets/images/ux_ui.svg" alt="ux and ui icon">
 <figcaption>UX&amp;UI</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../assets/images/htmlcss.svg" alt="html and css icon">
 <figcaption>Html &amp; CSS</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../assets/images/editorialdesign.svg" alt="editorial design icon">
 <figcaption>Editorial Design</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../assets/images/video.svg" alt="video editing icon">
 <figcaption>Video Editing</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../assets/images/illustration.svg" alt="illustration icon">
 <figcaption>Illustration</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../assets/images/animation.svg" alt="animation icon">
 <figcaption>Animation</figcaption>
 </figure>
 </div>

@@ -82,23 +82,23 @@ Iteration</p>
 <p>In the end of our Research we decided to set these main goals for our feature that had to be assured, so that our feature could feel purposeful.</p>
 <div>
 <figure>
-<img>
+<img src="../../assets/images/nikegoals1.png" alt="goal">
 <figcaption>Reduce the gap between brand and customer</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../../assets/images/nikegoals2.png" alt="goal">
 <figcaption>Provide a more immersive customer experience</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../../assets/images/nikegoals3.png" alt="goal">
 <figcaption>Make a better use of Nike’s social engagement potential </figcaption>
 </figure>
 <figure>
-<img>
+<img src="../../assets/images/nikegoals4.png" alt="goal">
 <figcaption>Resources Management</figcaption>
 </figure>
 <figure>
-<img>
+<img src="../../assets/images/nikegoals5.png" alt="goal">
 <figcaption>Overcome new obstacles set by the pandemic and social distancing</figcaption>
 </figure>
 </div>
@@ -108,17 +108,17 @@ Iteration</p>
 <h3>Customer Journey Map</h3>
 <p>This customer Journey Map helped us to anticipate some of the problems that could be raised by our feature. We started by thinking what dynamics we would want to explore and how to make them in a way that it maintains or elevates the already existing standards within NikeApp. This allowed us to measure the pro’s and con’s of AR as an e-commerce vehicle and visualize possible user scenarios and how we could solve them.</p>
 <figure>
-<img alt="Customer Journey Map">
+<img src="../../assets/images/nikemap.png" alt="Customer Journey Map">
 </figure>
 </div>
 
 <div>
 <h3>Sketches &amp; Wireframes</h3>
 <figure>
-<img alt="sketches">
+<img src="../../assets/images/nikesketch.png" alt="sketches">
 </figure>
 <figure>
-<img alt="wireframes">
+<img src="../../assets/images/nikewire.png" alt="wireframes">
 </figure>
 </div>
 
@@ -126,10 +126,8 @@ Iteration</p>
 <h3>Prototyping</h3>
 <p>Following the already existing design system, the main additions were the two different ways to view the model: by allowing the user to look at it on a 3D space; and by trying it on their own feet on the “Try on” mode.</p>
 <figure>
-<img alt="prototype">
-</figure>
-<figure>
-<img alt="prototype">
+<img src="../../assets/images/nikemockup1.png" alt="prototype">
+<img src="../../assets/images/nikemockup2.png" alt="prototype">
 </figure>
 </div>
 

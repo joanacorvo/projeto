@@ -13,11 +13,8 @@ Designed to be a relaxed funny quiz, taking advantage of design typical stereoty
 
 <div>
 <figure>
-<img>
-<figcaption>Inicial pages</figcaption>
-</figure>
-<figure>
-<img>
+<img src="../../assets/images/crew1.png" alt="home page">
+<img src="../../assets/images/crew2.png" alt="introduction page">
 <figcaption>Inicial pages</figcaption>
 </figure>
 </div>
@@ -25,21 +22,21 @@ Designed to be a relaxed funny quiz, taking advantage of design typical stereoty
 <p>The quiz takes the user through a hypothetical first day of a new job, answering with the problems with quirky solutions. Depending on their choices, the user would be inserted into one of five groups where, once the results are in, they could explore the possible job titles in that area.</p>
 
 <figure>
-<img>
+<img src="../../assets/images/crew3.png" alt="quiz question number 1">
 <figcaption>Quiz questions</figcaption>
 </figure>
 
 <p>This project seeks to help designers from all status to figure out what area of digital design fits best to their needs and wants. The frustration that takes over after trying to understand what job title fits best and which one to look for when looking out for jobs is demotivating. Therefore, it is important to have a place to gather all the different titles and its meanings, while at the same time it allows one to quickly find a crew where to fit.</p>
 
 <figure>
-<img>
+<img src="../../assets/images/crew4.png" alt="results page">
 <figcaption>Quiz Results</figcaption>
 </figure>
 
 <p>At the end of the quiz the user is taken to a page where they are shown their crew and is able to learn more about the job titles would fit them best, based on their answers. There is also the option to learn more about the other crews.</p>
 
 <figure>
-<img>
+<img src="../../assets/images/crew5.png" alt="Crews page">
 <figcaption>Page where the user can explore the Crews</figcaption>
 </figure>
 

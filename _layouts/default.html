@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{ page.title }}</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        {% include header.html %}
-        <main>
-            <div>
-                {{ content }}
-            </div>
-        </main>
-        {% include footer.html %}
-    </body>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
 
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/NFJVzt2q/mediaimg.jpg"
+    />
+
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/mc8jVDH4/favicon-16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="]https://i.postimg.cc/PLtKmZNK/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/tsd2ZDRY/favicon-96.png" sizes="96x96" />
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      <div>{{ content }}</div>
+    </main>
+    {% include footer.html %}
+  </body>
 </html>

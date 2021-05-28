@@ -1,0 +1,18 @@
+<svg width="103" height="78" viewBox="0 0 103 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1.5H101.5V67.5H1.5V1.5Z" fill="white" stroke="black" stroke-width="3"/>
+<rect x="96" y="54" width="55" height="30" transform="rotate(-180 96 54)" fill="#C4C4C4" stroke="black" stroke-width="2"/>
+<line y1="-0.5" x2="60.4079" y2="-0.5" transform="matrix(-0.860327 0.509742 -0.976867 -0.213848 93.6465 23.604)" stroke="black"/>
+<line y1="-0.5" x2="60.4079" y2="-0.5" transform="matrix(0.860327 0.509742 -0.976867 0.213848 41.6768 23.604)" stroke="black"/>
+<rect x="1.5" y="1.5" width="100" height="11" fill="white" stroke="black" stroke-width="3"/>
+<rect x="68.5" y="36.5" width="23" height="40" fill="white" stroke="black" stroke-width="3"/>
+<rect x="68.5" y="36.5" width="23" height="7" fill="white" stroke="black" stroke-width="3"/>
+<line x1="8" y1="41" x2="37" y2="41" stroke="black" stroke-width="2"/>
+<line x1="8" y1="53" x2="37" y2="53" stroke="black" stroke-width="2"/>
+<line x1="8" y1="47" x2="37" y2="47" stroke="black" stroke-width="2"/>
+<rect x="87.5" y="57.5" width="15" height="8" transform="rotate(-180 87.5 57.5)" fill="#C4C4C4" stroke="black"/>
+<line y1="-0.5" x2="16.9652" y2="-0.5" transform="matrix(-0.859891 0.510478 -0.97678 -0.214246 87.0586 49.1699)" stroke="black"/>
+<line y1="-0.5" x2="16.9652" y2="-0.5" transform="matrix(0.859891 0.510478 -0.97678 0.214246 72.4707 49.1699)" stroke="black"/>
+<line x1="72" y1="62" x2="88" y2="62" stroke="black" stroke-width="2"/>
+<line x1="72" y1="70" x2="88" y2="70" stroke="black" stroke-width="2"/>
+<line x1="72" y1="66" x2="88" y2="66" stroke="black" stroke-width="2"/>
+</svg>

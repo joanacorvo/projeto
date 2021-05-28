@@ -59,8 +59,8 @@ permalink: "/portfolio/"
 <figcaption>{{ data.category }}</figcaption>
 </figure>
 
-    {% if data contains url %}
-    <a href="{{ data.url }}"><h2>{{ data.title }}</h2></a>
+    {% if data.url-exists == "yeap" %}
+    <a href="{{ data.url }}"><h2>{{ data.title }} &#8594;</h2></a>
 
     {% else %}
     <h2>{{ data.title }}</h2>
