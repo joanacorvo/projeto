@@ -3,6 +3,7 @@
   <head>
     <title>{{ page.title }}</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:type" content="portfolio" />
     <meta property="og:title" content="{{ site.title }}" />
@@ -27,6 +28,10 @@
       href="https://i.postimg.cc/tsd2ZDRY/favicon-96.png"
       sizes="96x96"
     />
+
+
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
   </head>
   <body>
     {% include header.html %}

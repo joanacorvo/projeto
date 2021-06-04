@@ -7,7 +7,7 @@ title: "Joana Corvo"
 ---
 <section>
 <h1>Joana Corvo</h1>
-<h4>Junior Product Designer</h4>
+<h2>Junior Product Designer</h2>
 <p>I consider myself a problem-solver and someone who is always looking forward to learn new things.
 I find the combination between creative work and technology to be my sweet spot!</p>
 {% include email-btn.html %}

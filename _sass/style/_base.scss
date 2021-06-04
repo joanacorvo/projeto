@@ -1,0 +1,29 @@
+$base-color: #0B1F29;
+$neutral-color: #fff;
+$main-color: #DF9888;
+$secondary-color: #88C0DF;
+$thirdary-color: #88DFB0;
+$accent-color: #DF88AD;
+
+@mixin main-font {
+    font-family: 'Noto Sans', sans-serif;
+    color: $neutral-color;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: $base-color;
+    margin: 0;
+    @include main-font;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Cremona', serif;
+}
+
