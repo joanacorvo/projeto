@@ -5,7 +5,7 @@
 layout: home
 title: "Joana Corvo"
 ---
-<section>
+<section class="fullscreen-container">
 <h1>Joana Corvo</h1>
 <h2>Junior Product Designer</h2>
 <p>I consider myself a problem-solver and someone who is always looking forward to learn new things.

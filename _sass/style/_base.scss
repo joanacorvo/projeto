@@ -5,8 +5,13 @@ $secondary-color: #88C0DF;
 $thirdary-color: #88DFB0;
 $accent-color: #DF88AD;
 
+$standard-font-weight: 300;
+
+$fbg-medium: "( min-width: 660px )";
+$fbg-large: "( min-width: 1200px )";
+
 @mixin main-font {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: $neutral-color;
 }
 
@@ -19,11 +24,58 @@ body {
     background-color: $base-color;
     margin: 0;
     @include main-font;
+    width: 100%;
 }
 
 h1,
 h2,
-h3 {
+h3,
+.header-name {
     font-family: 'Cremona', serif;
+    font-weight: 400;
+    color: $neutral-color;
+
+    a {
+        @extend .header-name;
+        text-decoration: none;
+    }
+
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2,
+.header-name {
+    font-size: 1.5rem;
+}
+
+p {
+    @include main-font;
+    font-size: 1rem;
+    font-weight: $standard-font-weight;
+}
+
+section {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+
+.fullscreen-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1,
+    h2 {
+        margin: 0;
+    }
+
+    p {
+        max-width: 554px;
+    }
+}
