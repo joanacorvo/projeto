@@ -2,7 +2,8 @@
     <p class="header-name"><a href="{{ site.baseurl }}">Joana Corvo</a></p>
 <nav>
     <ul>
-        {% for page in site.pagesnav %}
+        {% assign sorted_pages = site.pagesnav | sort:"order" %}
+        {% for page in sorted_pages %}
             <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>

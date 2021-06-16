@@ -47,6 +47,14 @@ nav {
                 font-size: 0.875rem;
                 font-weight: $standard-font-weight;
             }
+
+            a:hover {
+                color: lighten($secondary-color, 10%);
+            }
+    
+            a:active {
+                color: darken($secondary-color, 15%);
+            }
         }
     }
 
@@ -115,4 +123,46 @@ nav {
 
 .toggle .burger-line3 {
     transform: rotate(45deg) translate(-4px, -8px);
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid $neutral-color;
+    padding: 32px;
+    box-sizing: border-box;
+
+    p {
+        a {
+            color: $neutral-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.social {
+    padding: 0;
+    
+    li {
+        list-style: none;
+        margin: 8px 0;
+
+        a,
+        a:visited {
+        color: $secondary-color;
+        }
+
+        a:hover {
+            color: lighten($secondary-color, 10%);
+        }
+
+        a:active {
+            color: darken($secondary-color, 15%);
+        }
+
+    }
 }

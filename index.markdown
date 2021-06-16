@@ -5,6 +5,8 @@
 layout: home
 title: "Joana Corvo"
 ---
+
+
 <section class="fullscreen-container">
 <h1>Joana Corvo</h1>
 <h2>Junior Product Designer</h2>
@@ -13,22 +15,14 @@ I find the combination between creative work and technology to be my sweet spot!
 {% include email-btn.html %}
 </section>
 
-<section>
+<section class="section-highlight">
 <h2>Portfolio</h2>
-<div>
-{% for project in site.projects %}
-<a href="{{ site.baseurl }}{{ project.url }}">
-<div>
-<h3>{{ project.title }}</h3>
-<p>{{ project.category }}</p>
-</div>
-</a>
-{% endfor %}
-</div>
+{% include projects-grid.html %}
 </section>
 
-<section>
+<section class="fullscreen-container">
 <h2>Contact</h2>
 <p>If you found something interesting here, or just want to talk about the latest Bring Me The Horizon album, I am always available for a chat!</p>
 {% include email-btn.html %}
 </section>
+
