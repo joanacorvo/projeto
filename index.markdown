@@ -15,7 +15,7 @@ I find the combination between creative work and technology to be my sweet spot!
 {% include email-btn.html %}
 </section>
 
-<section class="section-highlight">
+<section class="section-highlight margin-top-bottom">
 <h2>Portfolio</h2>
 {% include projects-grid.html %}
 </section>

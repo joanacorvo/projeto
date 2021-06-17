@@ -6,7 +6,8 @@ order: 1
 ---
 
 <div class="section-highlight">
-{% include projects-grid.html %}
+ <h3 class="margin-top-false">Study Cases</h3>
+ {% include projects-grid.html %}
 </div>
 
 

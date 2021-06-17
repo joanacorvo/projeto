@@ -44,7 +44,7 @@ nav {
             opacity: 0;
             a {
                 color: $neutral-color;
-                font-size: 0.875rem;
+                font-size: 1.3rem;
                 font-weight: $standard-font-weight;
             }
 
@@ -73,6 +73,10 @@ nav {
             li {
                 opacity: 1;
                 margin-left: 48px;
+
+                a {
+                    font-size: 0.875rem;
+                }
             }
         }
     }
