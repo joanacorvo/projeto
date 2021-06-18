@@ -16,6 +16,14 @@ header {
     top: 0;
     border-bottom: 1px solid $neutral-color;
     box-shadow: 0px 4px 8px 0px $secondary-color, 0px 2px 4px 0px $neutral-color;
+
+    @media #{ $fbg-medium } {
+        padding: 0 44px;
+    }
+
+    @media #{ $fbg-large } {
+        padding: 0 88px;
+    }
 }
 
 nav {
@@ -140,11 +148,32 @@ footer {
     padding: 32px;
     box-sizing: border-box;
 
-    p {
-        a {
-            color: $neutral-color;
-            text-decoration: none;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            a {
+                color: $neutral-color;
+                text-decoration: none;
+            }
         }
+    }
+    
+
+    @media #{ $fbg-medium } {
+        
+        padding: 32px 44px;
+        .contacts {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    @media #{ $fbg-large } {
+        padding: 32px 88px;
     }
 }
 
@@ -168,5 +197,12 @@ footer {
             color: darken($secondary-color, 15%);
         }
 
+    }
+
+    @media #{ $fbg-medium } {
+        li {
+            margin: 8px 8px;
+            display: inline-block;
+        }
     }
 }

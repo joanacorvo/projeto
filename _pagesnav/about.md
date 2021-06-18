@@ -5,9 +5,11 @@ permalink: "/about/"
 order: 2
 ---
 
-<section class="container">
+<section class="container about-container">
+<div>
 <h3>Joana Corvo</h3>
 <p>I am Joana Corvo, a Junior Product Designer with a Communication Design degree and a post-graduate student in Digital Experience Design at the Fine Arts Academy, Lisbon University. Through the past years, I have been working on projects that have made me grow as a designer, as well as a person.Besides design and art, my passions envolve music and reading. On my free time you can also catch me binge watching random videos on tecnology (right now I am learning about 3D printing!).</p>
+</div>
 
 <figure class="wrap-medium-container">
                 <img src="../assets/images/jcorvo1.jpg"
@@ -17,9 +19,8 @@ order: 2
                     alt="photo of Joana Corvo grabing her hair and making a silly face">
                 <img src="../assets/images/jcorvo4.jpg"
                     alt="photo of Joana Corvo with a smile on her face, almost laughing">
-            </figure>
+</figure>
 </section>
-
 
 <section class="section-highlight margin-top-bottom">
 <h3 class="margin-top-false">Academic Qualifications</h3>

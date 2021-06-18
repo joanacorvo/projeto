@@ -11,7 +11,7 @@ order: 1
 </div>
 
 
-<div class="main-container gallery-main-container">
+<div class="gallery-main-container">
 
  <h2>{{ site.data.otherprojects.docs_list_title }}</h2>
 
