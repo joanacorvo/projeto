@@ -32,7 +32,7 @@ order: 1
    </figure>
 
     {% if data.url-exists == "yeap" %}
-    <a class="gallery-link" href="{{ data.url }}"><h2 class="gallery-link">{{ data.title }} &#8594;</h2></a>
+    <a class="gallery-link" href="{{ data.url }}" title="{{ data.title }}"><h2 class="gallery-link">{{ data.title }} &#8594;</h2></a>
 
     {% else %}
     <h2>{{ data.title }}</h2>
@@ -61,7 +61,7 @@ order: 1
    </figure>
 
     {% if data.url-exists == "yeap" %}
-    <a href="{{ data.url }}"><h2>{{ data.title }} &#8594;</h2></a>
+    <a href="{{ data.url }}" title="{{ data.title }}"><h2>{{ data.title }} &#8594;</h2></a>
 
     {% else %}
     <h2>{{ data.title }}</h2>

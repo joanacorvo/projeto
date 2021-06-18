@@ -41,8 +41,8 @@ category: "UX/UI design"
 
  <h4 class="highlight-p">So... are you ready for your first day?</h4>
  </div>
- 
+
  <h3>Thank You!</h3>
- <a class="gallery-link" href="https://www.behance.net/gallery/111318737/Digital-Crew-A-Quiz-for-Designers" target="_blank"><h4>For a more indepth case study, please click here to view this project on Behance</h4></a>
+ <a class="gallery-link" href="https://www.behance.net/gallery/111318737/Digital-Crew-A-Quiz-for-Designers" target="_blank" title="link for project on behance"><h4>For a more indepth case study, please click here to view this project on Behance</h4></a>
 
 </article>

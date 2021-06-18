@@ -1,6 +1,6 @@
 <div class="grid-row">
   {% for project in site.projects %}
-  <a class="grid-row-item" href="{{ site.baseurl }}{{ project.url }}">
+  <a class="grid-row-item" href="{{ site.baseurl }}{{ project.url }}" title="{{ project.title }}">
     <div>
       <h3>{{ project.title }}</h3>
       <p>{{ project.category }}</p>

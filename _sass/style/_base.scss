@@ -30,6 +30,12 @@ $fbg-large: "( min-width: 1200px )";
   margin: 24px 0;
 }
 
+@mixin absolute-elements {
+  position: absolute;
+  right: 0;
+  z-index: -2;
+}
+
 @function ratio($width, $height) {
   $ze: $height / $width;
   @return percentage($ze);
@@ -51,6 +57,8 @@ body {
   width: 100%;
   @include flex-column;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 
   @media #{ $fbg-medium } {
     padding: 0 10%;
@@ -58,17 +66,18 @@ body {
   }
 
   @media #{ $fbg-large } {
-    padding: 0 16%;
+    padding: 0 12%;
   }
 }
 
 .page-container {
   @extend .main-container;
-  margin-top: 120px;
+  padding-top: 120px;
+  box-sizing: border-box;
 
   @media #{ $fbg-medium } {
-    padding: 0;
     box-sizing: border-box;
+    overflow: visible;
   }
 }
 
@@ -133,6 +142,7 @@ section {
   height: 100vh;
   @include flex-column;
   justify-content: center;
+  position: relative;
 
   h1,
   h2 {
@@ -449,6 +459,178 @@ section {
       img {
         background-color: $neutral-color;
       }
+    }
+  }
+}
+
+.circle-big,
+.circle-filled,
+.circle-small,
+.squares-group {
+  @include absolute-elements;
+}
+
+.circle-filled,
+.circle-small {
+  width: 132px;
+  height: 70px;
+  border-radius: 50%;
+  transform: translate(34px, 178px);
+
+  @media #{ $fbg-medium } {
+    width: 272px;
+    height: 132px;
+  }
+}
+
+.circle-big,
+.circle-small {
+  border: $neutral-color dotted 2px;
+}
+
+.circle-big {
+  width: 474px;
+  height: 474px;
+  border-radius: 50%;
+  top: -80px;
+  right: -180px;
+  animation: filling 4s ease-in-out infinite alternate;
+
+  @media #{ $fbg-medium } {
+    top: -20px;
+  }
+
+  @media #{ $fbg-medium } {
+    right: -280px;
+  }
+}
+
+.circle-filled {
+  background-color: $thirdary-color;
+  transform: translate(44px, 196px) rotate(35deg);
+  @media #{ $fbg-medium } {
+    transform: translate(144px, 56px) rotate(35deg);
+  }
+}
+
+.circle-small {
+  animation: rotate 40s infinite alternate;
+}
+
+.square {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  background-color: $accent-color;
+  //margin: 35px 0;
+  animation: squares 3s linear infinite alternate;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: #000 solid 1px;
+    position: absolute;
+    display: block;
+    transform: translate(-16px, -16px);
+  }
+}
+
+.squares-g1 {
+  transform: rotate(50deg);
+  top: 0;
+
+  @media #{ $fbg-medium } {
+    top: 60px;
+    right: 130px;
+  }
+}
+
+.squares-g2 {
+  transform: rotate(-80deg) translateY(-144px);
+  bottom: -60px;
+
+  @media #{ $fbg-medium } {
+    transform: rotate(-80deg) translateY(-284px);
+  }
+}
+
+@keyframes squares {
+  0% {
+    margin: 16px 0;
+  }
+  100% {
+    margin: 32px 0;
+  }
+}
+
+@media #{ $fbg-medium } {
+  @keyframes squares {
+    0% {
+      margin: 16px 0;
+    }
+    100% {
+      margin: 54px 0;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(34px, 178px) rotate(0deg);
+  }
+  100% {
+    transform: translate(34px, 178px) rotate(359deg);
+  }
+}
+
+@media #{ $fbg-medium } {
+  @keyframes rotate {
+    0% {
+      transform: translate(124px, 98px) rotate(0deg);
+    }
+    100% {
+      transform: translate(124px, 98px) rotate(359deg);
+    }
+  }
+}
+
+@keyframes filling {
+  0% {
+    background-color: rgba($secondary-color, 0);
+  }
+  100% {
+    background-color: rgba($secondary-color, 0.2);
+  }
+}
+
+.ani-contact {
+  @include absolute-elements;
+
+  .small-group {
+    transform: translate(-480px, -500px);
+    .circle-filled {
+      transform: rotate(-35deg) translate(-20px, 220px);
+    }
+  }
+
+  .squares-g2 {
+    transform: rotate(-80deg) translate(80px, -144px);
+  }
+
+  @media #{ $fbg-medium } {
+    .small-group {
+      transform: translate(-680px, -470px);
+    }
+
+    .squares-g2 {
+      transform: rotate(-80deg) translate(80px, -244px);
+    }
+  }
+
+  @media #{ $fbg-large } {
+    .small-group {
+      transform: translate(-880px, -490px);
     }
   }
 }

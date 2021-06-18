@@ -50,6 +50,6 @@ category: "UI design | E-commerce"
 
  <h3>Thank You!</h3>
 
- <a class="gallery-link" href="https://www.behance.net/gallery/113470175/Cheer-Brew" target="_blank"><h4>For a more indepth case study, please click here to view this project on Behance &#8594;</h4></a>
+ <a class="gallery-link" href="https://www.behance.net/gallery/113470175/Cheer-Brew" target="_blank" title="link for project on behance"><h4>For a more indepth case study, please click here to view this project on Behance &#8594;</h4></a>
 
 </article>

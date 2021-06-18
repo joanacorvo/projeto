@@ -1,10 +1,10 @@
 <header>
-    <p class="header-name"><a href="{{ site.baseurl }}">Joana Corvo</a></p>
+    <p class="header-name"><a href="{{ site.baseurl }}" title="home">Joana Corvo</a></p>
 <nav>
     <ul>
         {% assign sorted_pages = site.pagesnav | sort:"order" %}
         {% for page in sorted_pages %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
     <div class="burger">

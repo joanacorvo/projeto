@@ -121,6 +121,6 @@ category: "UX/UI design | Augumented Reality, E-commerce and Costumization"
  </div>
 
  <h3>Thank You!</h3>
- <a class="gallery-link" href="https://www.behance.net/gallery/117409319/TRY-ON-AR-Nike-by-You" target="_blank"><h4>For a more indepth case study, please click here to view this project on Behance</h4></a>
+ <a class="gallery-link" href="https://www.behance.net/gallery/117409319/TRY-ON-AR-Nike-by-You" target="_blank" title="link for project on behance"><h4>For a more indepth case study, please click here to view this project on Behance</h4></a>
 </article>
 
