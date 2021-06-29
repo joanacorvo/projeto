@@ -21,7 +21,6 @@
 title: Joana Corvo Personal Design Portfolio
 email: joanasemedocorvo@gmail.com
 description: Joana Corvo's personal website, displaying her portfolio and her skills.
-baseurl: "/projeto" # the subpath of your site, e.g. /blog
 url: "http://www.joanacorvo.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  joanacorvo
